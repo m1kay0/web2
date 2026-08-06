@@ -73,3 +73,15 @@ h1,h2,h3,h4,h5,h6 {
 .arial {
   font-family: Arial, sans-serif;
 }
+.example-block  {
+  border: 1px solid #000;
+  font-size: 50px;
+  margin: 0 0 30px 0;
+}
+.example-span {
+  font-size: 50px;
+  border: 1px dotted #000;
+}
+.example-image {
+  border: 5px dashed #000;
+}
