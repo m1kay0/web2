@@ -85,3 +85,17 @@ h1,h2,h3,h4,h5,h6 {
 .example-image {
   border: 5px dashed #000;
 }
+.background-les {
+  margin: 20px;
+  height: 200px;
+  border-radius: 40px;
+  box-shadow: 0 0 10px #000;
+  background: yellow;
+}
+.background-less {
+  margin: 20px;
+  height: 500px;
+  border-radius: 40px;
+  box-shadow: 0 0 10px #000;
+background: url(../img/Screenshot_2.png) 50% no-repeat, url(../img/photo_2025-08-03_17-24-29.jpg) 50% no-repeat;
+}
