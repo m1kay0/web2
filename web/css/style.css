@@ -99,3 +99,69 @@ h1,h2,h3,h4,h5,h6 {
   box-shadow: 0 0 10px #000;
 background: url(../img/Screenshot_2.png) 50% no-repeat, url(../img/photo_2025-08-03_17-24-29.jpg) 50% no-repeat;
 }
+body{
+  padding: 40px
+}
+.block p{
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 0 20px 0;
+}
+.block {
+  margin: 0 0 40px 0;
+}
+.block p:last-child{
+  text-transform: uppercase;
+}
+
+.link{
+  color: red;
+}
+.link:hover{
+  color: green;
+}
+.link:visited{
+  color: blue;
+  text-decoration: upperline;
+}
+.link:active{
+  color: yellow;
+}
+.textinput{
+  border: 1px solid #000;
+  height: 30px;
+  padding: 0 15px;
+  width: 300px;
+  font-size: 19px;
+  margin: 0 0 10px 0;
+}
+.textinput:focus{
+  box-shadow: 0 0 10px #000;
+}
+.button {
+  display: block;
+  width: 300px;
+  height: 50px;
+  background-color: green;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 30px 0;
+}
+.list li{
+  font-size: 18px;
+  margin: 0 0 15px 0;
+}
+.list li:first-child{
+  color: green;
+}
+.list li:last-child{
+  color: red;
+  font-weight: 700;
+}
+.list li:nth-child(odd){
+  text-transform: uppercase;
+}
+.list li:nth-child(even){
+  text-transform: lowercase;
+}
