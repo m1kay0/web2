@@ -1,0 +1,22 @@
+body {
+    padding: 30px;
+    font-family: arial, sans-serif;
+}
+.list {
+    font-size: 18px;
+}
+.list li {
+    margin: 0 0 10px 0;
+    position: relative;
+    padding-left: 30px;
+}
+.list li:before{
+    content: '';
+    background: url(../img/Screenshot_2.png) 0 0 no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    
+}
